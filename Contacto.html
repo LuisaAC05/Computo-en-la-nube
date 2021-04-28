@@ -1,0 +1,202 @@
+<doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <meta name="viewport" content="width=diviece-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="css/Estilos.css">
+    <script type="text/javascript" src="Alerta.js"> </script>
+</head>
+    
+<body>
+    
+   
+ <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="Logo.png" alt="Logo" style="width:90px;">
+        </a>
+        
+<ul class="navbar-nav mx-auto">
+      <!-- Dropdown -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Eventos y Competición</a>
+        
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Motosport.html">Porsche Motosport</a>
+        <a class="dropdown-item" href="IceExper.html">Ice Experience</a>
+        <a class="dropdown-item" href="TravelClub.html">Porsche Travel Club</a>
+        <a class="dropdown-item" href="GT.html">GT World Champion</a>
+      </div>
+    </li>
+      
+    <li class="nav-item">
+      <a class="nav-link" href="Vehiculos.html">Vehículos</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Descubre Porsche 
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Historia.html">70 años de historia</a>
+        <a class="dropdown-item" href="Museo.html">Museo Porsche</a>
+        <a class="dropdown-item" href="LatinoAmerica.html">Porsche Latin America</a>
+    </div>
+    </li>
+  </ul>
+</div>
+</nav><br><br><br><br><br><br>
+    
+<div class="containter-fluid">
+<img src="ImgContacto.jpg" class="img-fluid" alt="Responsive image"><hr>
+<center><h2 style="color: DarkRed">Contactanos</h2></center>
+<p style="text-align: justify;"><b><center>¿Desea recibir promociones personalizadas? Entonces registre sus datos para asi pasar a formar parte de Club Porsche.</center></b></p>
+<form action="Registros.php" method="POST">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="Nombre"></label>
+                    <input class="form-control" id="Nombre" name="Nombre" type="text" placeholder="Nombre">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="ApeP"></label>
+                    <input class="form-control" id="ApeP" name="ApeP" type="text" placeholder="Apellido Paterno">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="ApeM"></label>
+                    <input class="form-control" id="ApeM" name="ApeM" type="text" placeholder="Apellido Materno">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="Correo"></label>
+                    <input class="form-control" id="Correo" name="Correo" type="text" placeholder="Correo Electrónico">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="Tel"></label>
+                    <input class="form-control" id="Tel" name="Tel" type="text" placeholder="Teléfono">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="Opciones"> </label>
+                    <select class="form-control" id="Nacionalidad" name="Nacionalidad">
+                        <option value="Mexicana">Mexicana</option>
+                        <option value="Estadounidense">Estadounidense</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="Pais"></label>
+                    <input class="form-control" id="Pais" name="Pais" type="text" placeholder="País">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="Estado"></label>
+                    <input class="form-control" id="Estado" name="Estado" type="text" placeholder="Estado">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="Ciudad"></label>
+                    <input class="form-control" id="Ciudad" name="Ciudad" type="text" placeholder="Ciudad">
+                </div>
+            </div>
+        </div>
+      
+    <button type="submit">registrar</button>
+    
+        <input class="btn btn btn-outline-info" type="button" href='#' name="Enviar" value="Enviar" onclick="funcionAlerta()">
+    
+        </form>
+</div>
+   
+<div class="footer">
+    <br>
+    <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase LetrasFooter">INFORMACIÓN DEL SITIO</h5>
+        <a href="AvisoDePrivacidad.pdf" class="Links"><p>Aviso de Privacidad</p></a>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase LetrasFooter">CENTRO DE AYUDA</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="Contacto.html" class="Links">Contáctanos</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <ul class="list-unstyled">
+          <li>
+            <p class="LetrasCopy">Copyright & Todos los derechos reservados</p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+    <br>
+</div>
+</body>
+</html>
